@@ -8,3 +8,7 @@ dice-ml
 plotly
 matplotlib
 seaborn
+python-telegram-bot
+langgraph
+langchain
+requests
