@@ -834,7 +834,7 @@ async def default_msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ── Main ──────────────────────────────────────────────────────
 if __name__ == '__main__':
-    TOKEN = os.environ.get('TELEGRAM_TOKEN', '8663010744:AAEXs29ahTYmKHC43xa3VdkykbtfwE5MLVo')
+    TOKEN = os.environ.get('TELEGRAM_TOKEN', '8663010744:AAEF5rBJgC2WgXOnuc8DJDgpisMBitQbiOg')
 
     bot = ApplicationBuilder().token(TOKEN).build()
 
@@ -874,4 +874,4 @@ if __name__ == '__main__':
     bot.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, default_msg))
 
     print("Bot + LangGraph Agent starting!")
-    bot.run_polling()
+    bot.run_polling(drop_pending_updates=True)
