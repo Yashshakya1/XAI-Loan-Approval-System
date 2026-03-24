@@ -10,7 +10,7 @@
 
 **An Explainable AI system for Loan Approval Prediction with LangGraph Agent, SHAP, LIME, DiCE, and Telegram Bot Integration**
 
-[🌐 Live Demo](https://xai-loan-approval.onrender.com) • [🤖 Telegram Bot](https://t.me/xai_loan_approval_bot) • [📊 GitHub](https://github.com/Yashshakya1)
+[🌐 Live Demo](https://lnkd.in/dnpkXiBv) • [🤖 Telegram Bot](https://t.me/xai_loan_approval_bot) • [📊 GitHub](https://github.com/Yashshakya1)
 
 </div>
 
